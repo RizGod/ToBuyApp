@@ -13,7 +13,11 @@
         android:theme="@style/Theme.ToBuyApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.opened_shop_item.ShopItemActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.start_page.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
